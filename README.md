@@ -1,0 +1,7 @@
+# RNA-GPT: Multimodal Generative System for RNA Sequence Understanding
+
+> MLSB Workshop, Neurips 2024
+> 
+> Homepage: https://rna-gpt.github.io/
+
+RNAs are vital molecules that carry genetic information essential for life and have significant implications for drug development and biotechnology. However, RNA research is often hindered by the vast amount of literature. To address this challenge, we introduce RNA-GPT, a multi-modal RNA chat model that simplifies RNA discovery by leveraging extensive RNA literature. RNA-GPT combines RNA sequence encoders with linear projection layers and state-of-the-art large language models (LLMs) for precise representation alignment. This enables it to process user-uploaded RNA sequences and provide concise, accurate responses. Our scalable training pipeline, powered by RNA-QA, automatically gathers RNA annotations from RNAcentral using a divide-and-conquer approach with GPT-4 and latent Dirichlet allocation (LDA) to handle large datasets and generate instruction tuning samples. Experiments show that RNA-GPT effectively handles complex RNA queries, streamlining RNA research. We also introduce RNA-QA, a dataset of 407,616 RNA sequences for modality alignment and instruction tuning.
